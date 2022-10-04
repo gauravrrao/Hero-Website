@@ -1,0 +1,70 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hcontainer>ul{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    
+}
+.hcontainer>ul>li{
+    display: flex;
+    margin-right: 5rem;
+}
+.hcontainer>ul>li>a{
+    text-decoration: none;
+    color: white;  
+    font-size: 1.2rem;
+    border-radius: 5rem;
+    padding: 1.2rem;
+}
+.image{
+    height: 5.8rem;
+    border-radius: 1rem;
+}
+.hcontainer{
+    display: flex;
+    border-radius: 5rem;
+    
+}
+.hcontainer>ul>li>a:hover{
+    background-color: crimson;
+    color: white;
+}
+body{
+    background-color:black ;
+}
+.image-box{
+    height: 20rem;
+}
+.main-box{
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+.image-box2{
+    height: 20rem;
+    margin-left: 10rem;
+    width: 35rem;
+}
+.description{
+    color: white;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.description:hover{
+    background-color: crimson;
+    cursor: pointer;
+}
+.about{
+    color: white;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.about:hover{
+    background-color: crimson;
+    cursor: pointer;
+}
